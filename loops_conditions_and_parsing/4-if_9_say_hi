@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# print best school 10 times using while and if 
+
+x=1
+while [ "$x" -lt 11 ]; do
+	echo "Best School"
+	  # if statement to print Hi when x is 9
+	     if [ "$x" -eq 9 ]; then
+			 echo "Hi"
+			     fi
+				((x++))
+			done
